@@ -1,7 +1,7 @@
 mkdir ~/code-server && cd ~/code-server
-wget https://github.com/cdr/code-server/releases/download/v3.9.0/code-server_3.9.0_amd64.deb
-sudo chmod u+x code-server_3.9.0_amd64.deb
-sudo dpkg -i code-server_3.9.0_amd64.deb
+wget https://github.com/cdr/code-server/releases/download/v4.2.0/code-server_4.2.0_amd64.deb
+sudo chmod u+x code-server_4.2.0_amd64.deb
+sudo dpkg -i code-server_4.2.0_amd64.deb
 sudo cp -r ~/*/code-server.service /lib/systemd/system/
 sudo systemctl start code-server
 sudo systemctl status code-server
